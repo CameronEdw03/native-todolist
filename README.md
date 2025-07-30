@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Todo List - My First React Native App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple **Todo List** mobile app built with **React Native**. I created this app to practice and learn React Native fundamentals, and to track my learning progress with hands-on experience.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- Add new tasks via the input box
+- Press Enter to add a task (no button needed)
+- Display a list of tasks with checkboxes
+- Toggle tasks as completed or incomplete by tapping the checkbox
+- Completed tasks show with strikethrough styling
+- Simple, clean, and responsive UI
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Why I Built This
 
-In the output, you'll find options to open the app in a
+As someone familiar with React JS, I wanted to dive into **React Native** by building a practical app that helps me:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Understand React Native components and styling
+- Practice state management with hooks (`useState`)
+- Work with native inputs and lists (`TextInput` and `FlatList`)
+- Manage touch interactions (`Pressable` and toggling state)
+- Learn to structure a small project and handle user input
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Screenshots
 
-When you're ready, run:
+*(Add screenshots or GIFs here to showcase your app UI)*
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- Expo CLI (optional but recommended): `npm install -g expo-cli`
+- A device or simulator/emulator (iOS Simulator, Android Emulator, or Expo Go app on your phone)
+
+### Installation
+
+1. Clone the repo:
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
